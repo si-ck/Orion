@@ -12,8 +12,7 @@ app.use(express.static("public"));
 app.use(cookieParser());
 
 // Test Route (Add this if missing)
-app.get("/api/test", (req, res) => {
-  res.json({ message: "✅ API is working!" });
+app.get("/api/test", (req, 
 });
 
 // Export the app
